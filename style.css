@@ -85,6 +85,15 @@
     height: 100%;
     width: 50%;
     background-color: rgb(70, 129, 178);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.login-form {
+    height: 95%;
+    width: 76%;
+    background-color: orange;
 }
 
 /*              FOOTER              */
