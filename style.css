@@ -1,0 +1,56 @@
+ * {
+    padding: 0;
+    margin: 0;
+    border-radius: border-box;
+}
+
+/*          Nav-Bar                 */
+
+/*  DARK  */
+.navbar-dark {
+    height: 6rem;
+    width: 100%;
+    background-color: #06090b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+    margin-left: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    width: 40%;
+}
+
+
+.btn {
+    margin-right: 2rem;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.btn button {
+    height: 3.5rem;
+    width: 4.6rem;
+    border-radius: 15px;
+    background-color: #06090b;
+    border: 2px solid #181a1d;
+}
+
+.btn button svg {
+    color: #9edc02;
+    padding: 0.5rem 1.3rem;
+}
