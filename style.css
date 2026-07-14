@@ -1,14 +1,13 @@
  * {
     padding: 0;
     margin: 0;
-    border-radius: border-box;
 }
 
 /*          Nav-Bar                 */
 
 /*  DARK  */
 .navbar-dark {
-    height: 6rem;
+    height: 5rem;
     width: 100%;
     background-color: #06090b;
     display: flex;
@@ -28,7 +27,7 @@
 
 .logo img {
     height: 100%;
-    width: 40%;
+    width: 35%;
 }
 
 
@@ -53,4 +52,66 @@
 .btn button svg {
     color: #9edc02;
     padding: 0.5rem 1.3rem;
+}
+
+
+/*              MIDDLE              */
+
+.middle {
+    height: 40rem;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.middle-left {
+    height: 100%;
+    width: 50%;
+    background-color: lime;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding-left: 2rem;
+}
+
+.left-text {
+    margin-bottom: 6rem;
+}
+
+
+.middle-right {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(70, 129, 178);
+}
+
+/*              FOOTER              */
+
+.footer {
+    height: 5.1rem;
+    width: 100%;
+    background-color: rgb(101, 100, 99);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+} 
+
+.left-foot {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(36, 186, 186);
+}
+
+.middle-foot {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(26, 209, 209);
+}
+
+.right-foot {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(44, 226, 226);
 }
